@@ -73,9 +73,9 @@ This project investigates the relationship between public healthcare expenditure
    - Successfully merged healthcare expenditure, life expectancy, poverty, and population data
    - Created a comprehensive final dataset for analysis
 
-5. **Visualization:**
+5. **Visualisation:**
    - Created static plots using `ggplot2`
-   - Developed interactive visualizations using `plotly`
+   - Developed interactive visualisations using `plotly`
    - Generated various plot types: box plots, scatter plots, line charts
    - Implemented faceting for multi-country comparisons
 
@@ -104,7 +104,7 @@ This project investigates the relationship between public healthcare expenditure
 ### Technical Implementation
 
 #### Code Structure:
-The Jupyter Notebook is organized chronologically:
+The Jupyter Notebook is organised chronologically:
 
 1. **Setup and Data Loading** (Lines 1-100)
 2. **Life Expectancy Analysis** (Lines 101-200)
@@ -118,7 +118,7 @@ The Jupyter Notebook is organized chronologically:
 - **Data Filtering:** `filter()` with specific country and year criteria
 - **Data Merging:** `merge()` using common keys
 - **Feature Engineering:** Creating new columns for per-capita calculations
-- **Visualization:** Combination of `ggplot2` and `plotly` for static and interactive plots
+- **Visualisation:** Combination of `ggplot2` and `plotly` for static and interactive plots
 - **Data Export:** Saving plots as PNG and HTML files
 
 ### How to Use This Notebook
@@ -151,7 +151,7 @@ The Jupyter Notebook is organized chronologically:
 - The notebook is designed to run from start to finish
 - Each major section begins with comments describing its purpose
 - Intermediate results are saved as variables for later use
-- Final visualizations are exported for presentation purposes
+- Final visualisations are exported for presentation purposes
 
 ### Dependencies
 
@@ -162,7 +162,7 @@ library(tidyverse)    # Includes dplyr, ggplot2, etc.
 library(dplyr)        # Data manipulation
 library(ggplot2)      # Static plotting
 
-# Interactive visualization
+# Interactive visualisation
 library(plotly)       # Interactive plots
 library(htmlwidgets)  # Saving interactive plots as HTML
 library(webshot)      # Converting interactive plots to static images
